@@ -518,7 +518,6 @@ S3 | Автоматическая репликация
 Redis (кеш) | Репликация (Redis Sentinel)
 Kafka (очередь) | ISR (In-Sync Replicas)
 Backend | Kubernetes ReplicaSet
-Frontend | CDN
 ClickHouse | Multi-Master репликация через Zookeeper
 K8s | Multi-Master + etcd кластер
 
