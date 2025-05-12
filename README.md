@@ -521,12 +521,12 @@ Redis | Рекомендательная система | Кеш для хран
 Компонент | Способ резервирования
 :-:|-
 Nginx (балансировщик нагрузки) | Active-Standby с Keepalived (VRRP)
-PostgreSQL | В пределах ДЦ - Master-Slave репликация. Между ДЦ - асинхронная Multi-Master репликация (Citus)
+PostgreSQL | Репликация между ДЦ
 S3 | Автоматическая репликация
 Redis (кеш) | Репликация (Redis Sentinel)
 Backend | Kubernetes ReplicaSet
-ClickHouse | Multi-Master репликация через Zookeeper
-K8s | Multi-Master + etcd кластер
+ClickHouse | Master-Master репликация через Zookeeper
+K8s | Master-Master + etcd кластер
 
 ## 10. Схема проекта
 
