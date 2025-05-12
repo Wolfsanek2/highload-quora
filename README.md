@@ -410,9 +410,9 @@ UserActivity | ClickHouse
 Таблица | Шардирование | Резервирование
 -|-|-
 User | по id | master-slave
-Question | по author_id | master-slave
-Answer | по question_id | master-slave
-Post | по user_id | master-slave
+Question | - | master-slave
+Answer | - | master-slave
+Post | - | master-slave
 Comment | по post_id | master-master
 PostVote | по post_id | master-master
 AnswerVote | по answer_id | master-master
