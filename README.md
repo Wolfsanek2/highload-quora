@@ -555,6 +555,16 @@ ClickHouse | 571.087 Гб | 3125.324 | 35
 Redis | 2.515 | 3125.324 | 35
 S3 | 523.787 Тб | 15377.373 | -
 
+Сервера:
+Название | Хостинг | Конфигурация | Cores | Cnt | Покупка | Аренда за 5 лет
+|:-:|-|-|-|-|-|-|
+Nginx | own | 2x6338/2x32GB/2xNVMe4T/2x25Gb/s | 4 | 5 | $40000 | $90000
+kubernode | own | 2x6338/4x32GB/2xNVMe4T/2x25Gb/s | 32 | 15 | $120000 | $270000
+PostgreSQL | own | 2x6378/8x32GB/2xSSD3.84T/2x10Gb/s | 64 | 15 | $202500 | $459000
+ClickHouse | own | 2x7453/16x32GB/4xNVMe3.84T/2x25Gb/s | 64 | 5 | $75000 | $216000
+Redis | own | 1x5318/4x32GB/1xSSD960G/2x25Gb/s | 32 | 5 | $40000 | $90000
+S3 | Amazon | 1 Пб | - | - | - | $1447034
+
 ## Список источников
 1. [https://www.grabon.in/indulge/tech/quora-statistics/][1]
 1. [https://business.quora.com/resources/reach-over-400-million-monthly-unique-visitors-on-quora/][2]
