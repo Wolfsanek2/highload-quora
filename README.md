@@ -422,6 +422,8 @@ Topic | - | master-slave
 UserInterest | по user_id | master-master
 UserActivity | по user_id | master-master
 
+Резервирование проводится с помощью репликации между датацентрами (RF=5). Master-master репликация проводится асинхронно (актуальность данных не критична), master-slave - синхронно (master узел находится в Европейском ДЦ).
+
 ### Клиентские библиотеки / интеграции
 
 * PostgreSQL - pgx
